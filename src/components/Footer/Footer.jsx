@@ -128,7 +128,7 @@ const Footer = () => {
               </h3>
              
             </div>
-             <p className="font-urbanist font-medium text-xs md:text-sm leading-6 text-white">Create by Shayan Abdullah</p>
+             <p className="font-urbanist font-medium text-xs md:text-sm leading-6 text-white">Developed by Shayan Abdullah</p>
             <div className="logos flex items-center gap-3 text-white  text-xl">
               <a
                 href="https://www.facebook.com/share/1KTBsRTZge/"

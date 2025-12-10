@@ -14,7 +14,9 @@ const [loading, setLoading] = useState(true)
 useEffect (()=>{
 const handleLoad = () => {
   if(document.readyState === 'complete') {
-    setLoading(false)
+   const delay = setInterval(()=>{
+       setLoading(false)
+   }, 1000)
   }
 };
  handleLoad();
