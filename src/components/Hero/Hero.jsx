@@ -39,7 +39,7 @@ const Hero = () => {
                   <Button text="Learn More" />
                   <Button
                     text="Browse Properties"
-                    className={"bg-accent-purple! "}
+                    className={"bg-accent-purple! "}  href={'#properties'}
                   />
                 </div>
                 <div className="spinner absolute top-[20%] left-[57%] -translate-x-1/2 animate z-20">
@@ -81,7 +81,7 @@ const Hero = () => {
                   <Button text="Learn More" className={'w-full!'} />
                   <Button
                     text="Browse Properties"
-                    className={"bg-accent-purple! w-full! "}
+                    className={"bg-accent-purple! w-full! "} href={'#properties'}
                   />
                 </div>
 
@@ -117,7 +117,7 @@ const Hero = () => {
                   <Button text="Learn More" className={'w-full!'} />
                   <Button
                     text="Browse Properties"
-                    className={"bg-accent-purple! w-full! "}
+                    className={"bg-accent-purple! w-full! "}  href={'#properties'}
                   />
                 </div>
 

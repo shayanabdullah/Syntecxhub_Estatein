@@ -6,8 +6,7 @@ const Loader = () => {
   return (
     <div className="fixed inset-0 bg-bg-card flex items-center justify-center z-[9999]">
  <div className="text-text-secondary  fadein flex gap-1 items-end md:text-9xl text-7xl  border-b ">
-  <IoMdHome />
-  <FaTree />
+<img src={loader} alt="" />
 
  </div>
     </div>
